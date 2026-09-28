@@ -1,0 +1,39 @@
+# asd
+
+> A skill that circulates search results instead of leaving them in one chat.
+
+## Purpose
+Explain asd as a passer of search hits so they can move to the next reader or tool. Source: fitzyracing1/asd.
+
+## How it works (plain English)
+1. Take a search result.
+2. Circulate it.
+3. Do not bury it in one thread.
+
+## Key ideas
+- Search-result circulation (move hits onward)
+- Skill (a small named behavior)
+
+## The actual code
+```
+# source: fitzyracing1/asd
+result = take_search_hit()
+circulate(result)
+```
+
+## Line-by-line translation
+1. take_search_hit() → “accept one result”
+2. circulate(result) → “pass it on”
+
+## Decisions the program makes
+- If a hit arrives → circulate it
+- If nothing arrives → wait
+
+## What a person would notice
+Search hits leave the chat instead of sitting still.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open fitzyracing1/asd and pass one result through it.

@@ -1,2 +1,5 @@
 # asd-barrage
-Barrage plain-language clone of fitzyracing1/asd
+
+Barrage clone of [fitzyracing1/asd](https://github.com/fitzyracing1/asd).
+
+Read [listing.barrage](listing.barrage).
